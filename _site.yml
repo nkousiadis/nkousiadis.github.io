@@ -2,9 +2,16 @@ name: "Nikos Kousiadis"
 output_dir: "."
 navbar:
   title: "Nikos Kousiadis"
+  left:
+      - text: "Experience"
+        href: experience.html
+      - text: "Education"
+        href: education.html
   right:
       - icon: fa-linkedin fa-lg
         href: https://www.linkedin.com/in/nikoskousiadis/
+      - icon: fa-github fa-lg
+        href: http://github.com/nkousiadis
 output:
   html_document:
-    theme: paper
+    theme: lumen

@@ -1,4 +1,6 @@
 ---
 ---
 
+<br>
+
 <img src="www/photo.png" align="left">

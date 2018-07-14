@@ -1,0 +1,31 @@
+---
+---
+
+<br>
+
+<font color="#218cba"><b>10/2015 - 01/2017</font> &emsp; Athens University of Economics and Business<br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;
+[M.Sc. in Business Analytics](http://analytics.aueb.gr/)</b>
+
+Field Study Project (Master Thesis) conducted in ICAP Group:<br>
+Development of automated system in R for the following activities on default characterization data:  
+
+* Data cleansing, exploration and transformation  
+* Statistical reporting and visualization  
+* Creation of historical database and integration in optimised data schema  
+
+Part of master projects:  
+
+* Data warehousing, Data management, ETL (MySQL, MemSQL, Java, R)  
+* Statistical analyses with R using various methods, e.g. regression, classification, clustering,
+LASSO, PCA, Naïve Bayes, etc.
+* Application development using big data tools like Hadoop, Spark, Redis, MongoDB and
+Neo4j (Java, Scala, R)
+* Data Mining, Large Scale Optimization, Visual Analytics, Recommender Systems,
+Business Analysis<br><br>
+
+<font color="#218cba"><b>10/2008 – 09/2013</font> &emsp; University of Athens</b><br>
+&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;&nbsp;
+<b>[B.Sc. in Mathematics](http://noether.math.uoa.gr/?set_language=en)</b>
+
+* Main topics of interest: Probability Theory, Operations Research, Stochastics, Statistics
