@@ -1,5 +1,12 @@
 name: "Nikos Kousiadis"
 output_dir: "."
+navbar:
+  title: "Nikos Kousiadis"
+  left:
+  - text: "Test"
+  right:
+      - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/nikoskousiadis/
 output:
   html_document:
     theme: paper
