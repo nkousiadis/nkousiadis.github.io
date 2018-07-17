@@ -9,6 +9,7 @@
 * Design, develop and maintain analytics app (R Shiny) for the following purposes: 
 data visualisation, statistical results, simulation, KPI monitoring, customer scoring & segmentation, predictive modelling, etc.
 * Use supervised and unsupervised machine learning methods to optimize customer experience, revenue generation and other business outcomes
+* Enhance customer experience building recommender systems for personalized services
 * Develop and automate reporting processes
 * Define, measure and monitor KPIs
 * Design new data-driven business products
