@@ -1,0 +1,41 @@
+---
+---
+
+<br>
+
+```{r experience, echo=FALSE}
+library(timevis)
+library(htmltools)
+
+timeline_data <- data.frame(
+  id      = 1:5,
+  content = c("<b>Telephone Researcher</b><br>Metron Analysis",
+              "<b>Data Scientist</b><br>ICAP Group",
+              "<b>Data Analyst</b><br>Intelen Inc",
+              "<b>BSc in Mathematics</b><br>University of Athens",
+              "<b>MSc in Business Analytics</b><br>Athens University of Economics and Business"),
+  group = c(rep("exp",3),
+            rep("edu",2)),
+  start   = c("2015-01-05",
+              "2016-07-10",
+              "2017-05-15",
+              "2008-10-01",
+              "2015-10-01"),
+  end     = c("2015-10-30", 
+              "2017-05-12",
+              as.character(Sys.Date()),
+              "2013-09-30",
+              "2017-01-30")
+)
+
+timeline_groups <- data.frame(
+  id = c("exp","edu"),
+  content = c("Experience",
+              "Education")
+)
+
+timevis(data = timeline_data, 
+        groups = timeline_groups, 
+        width = 1000, 
+        height = 300)
+```

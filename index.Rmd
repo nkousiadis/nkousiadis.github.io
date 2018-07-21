@@ -1,6 +1,163 @@
 ---
+output:
+  html_document:
+    self_contained: yes
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
 ---
 
 <br>
 
-<img src="www/photo.png" align="left">
+<img src="www/photo.png" align="right">
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+# Experience
+
+<font color="#218cba"><b>05/2017 - Present</font> &emsp;&nbsp; Data Analyst, Analytics Department,
+[Intelen Inc, Athens](https://intelen.com/us/)</b>
+
+* Design, develop and maintain analytics app (R Shiny) for the following purposes: 
+data visualisation, statistical results, simulation, KPI monitoring, customer scoring & segmentation, predictive modelling, etc.
+* Use supervised and unsupervised machine learning methods to optimize customer experience, revenue generation and other business outcomes
+* Enhance customer experience building recommender systems for personalized services
+* Develop and automate reporting processes
+* Define, measure and monitor KPIs
+* Design new data-driven business products
+
+<font color="#218cba"><b>07/2016 - 05/2017</font> &emsp; Data Scientist, Credit Risk Department, [ICAP Group, Athens](https://www.icap.gr/)</b>
+
+* Prepare the thesis "Storage of Default Characterization Data", as part of the M.Sc. in Business Analytics, Athens University of Economics and Business  
+* Support regulatory requirements on reporting and monitoring of ICAP's credit assessment evolution data to regulators
+* Support reporting to European Rating Platform (ERP/RADAR), the platform maintained by ESMA on credit rating agencies data
+* Design, develop and maintain statistical procedures and tools (automated and semi-automated procedures) for the monitoring of credit assessment evolution in SAS and R softwares, as well as, data management and automation activities
+* Business process modelling
+
+<font color="#218cba"><b>01/2015 – 10/2015</font> &emsp; Researcher, Telephone Research Department, [Metron Analysis S.A., Athens](https://www.metronanalysis.gr/)</b> 
+
+* Participate in the conduction of various research projects in the section of the telephone survey department.<br> 
+
+<br>
+
+# Education
+
+<font color="#218cba"><b>10/2015 - 01/2017</font> &emsp; [M.Sc. in Business Analytics](http://analytics.aueb.gr/), Athens University of Economics and Business</b>
+
+<b> Degree with Distinction, 8.86 / 10 </b>
+
+Field Study Project (Master Thesis) conducted in ICAP Group:<br>
+Development of automated system in R for the following activities on default characterization data:  
+
+* Data cleansing, exploration and transformation  
+* Statistical reporting and visualization  
+* Creation of historical database and integration in optimised data schema  
+
+Part of master projects:  
+
+* Data warehousing, Data management, ETL (MySQL, MemSQL, Java, R)  
+* Statistical analyses with R using various methods, e.g. regression, classification, clustering,
+LASSO, PCA, Naïve Bayes, etc.
+* Application development using big data tools like Hadoop, Spark, Redis, MongoDB and
+Neo4j (Java, Scala, R)
+* Data Mining, Large Scale Optimization, Visual Analytics, Recommender Systems,
+Business Analysis<br><br>
+
+<font color="#218cba"><b>10/2008 – 09/2013</font> &emsp; [B.Sc. in Mathematics](http://noether.math.uoa.gr/?set_language=en), University of Athens</b>
+
+* Main topics of interest: Probability Theory, Operations Research, Stochastics, Statistics
+
+<br>
+
+# Professional development
+
+<font color="#218cba"><b>06/2018 - Present</font> &emsp; Data Scientist with Python</b>, Datacamp Career Track (9 out of 22 courses completed)
+<details><summary>Courses/Statements of accomplishment:</summary>
+<p>
+1. [Intro to Python for Data Science](https://www.datacamp.com/statement-of-accomplishment/course/d66f750910ba8fbaa55618aa08a235e452b295b9)
+2. [Intermediate Python for Data Science](https://www.datacamp.com/statement-of-accomplishment/course/82d38467dad84013beb9c2c1ff11dc8ab0e5376e)
+3. [Python Data Science Toolbox (Part 1) ](https://www.datacamp.com/statement-of-accomplishment/course/f838418702703ae04bae7d782da545fc491c577a)
+4. [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/statement-of-accomplishment/course/021a139dffb422b6cd51c5f2050b920337d3ae13)
+5. [Importing Data in Python (Part 1) ](https://www.datacamp.com/statement-of-accomplishment/course/0bb10b12d6965e3b7bfe7d95da6e925342357bf3)
+6. [Importing Data in Python (Part 2) ](https://www.datacamp.com/statement-of-accomplishment/course/99b8b80ef50a6775917b0771980e176aeff5ee07)
+7. [Cleaning Data in Python](https://www.datacamp.com/statement-of-accomplishment/course/a240d2f4538d0532e0dda5c86a43cf79086f9da7)
+8. [pandas Foundations](https://www.datacamp.com/statement-of-accomplishment/course/869f96946f3188af23971df509f4bf9e6c6acf43)
+9. [Manipulating DataFrames with pandas](https://www.datacamp.com/statement-of-accomplishment/course/d1c6e0d9610e2c837d74c8abf6f56208bcad7529)
+</p>
+</details>
+
+<font color="#218cba"><b>02/2018 - 03/2018</font> &emsp; [Data Scientist with R](https://www.datacamp.com/statement-of-accomplishment/track/5f3ae4f9295654dfccd7c84862a83dd1fbfea8e7)</b>, Datacamp Career Track (all 23 courses completed)
+
+<font color="#218cba"><b>02/2018 - 04/2018</font> &emsp; [R Programmer](https://www.datacamp.com/statement-of-accomplishment/track/65f433e5b296dfbeec46e11abdca8a5fcbad4340)</b>, Datacamp Career Track (all 10 courses completed)
+
+<font color="#218cba"><b>02/2018 - 04/2018</font> &emsp; [Data Analyst with R](https://www.datacamp.com/statement-of-accomplishment/track/57a0e342cf5cfc481df8607dc16c053fd8e9dc18)</b>, Datacamp Career Track (all 16 courses completed)
+
+<font color="#218cba"><b>03/2015 - 05/2015</font> &emsp; [Analytics Edge](https://verify.edx.org/cert/b346f33c4c934228b6e94154a2a83522)</b>, MIT - edX course
+
+<font color="#218cba"><b>02/2015 - 05/2015</font> &emsp; [Introduction to Probability - The Science of Uncertainty](https://verify.edx.org/cert/3fc4fbc2d4ef463da842cbeedf725d91)</b>, MIT - edX course
+
+<br>
+
+# Timeline
+
+```{r experience, echo=FALSE}
+library(timevis)
+
+timeline_data <- data.frame(
+  id = 1:11,
+  content = c("<b>Telephone Researcher</b><br>Metron Analysis",
+              "<b>Data Scientist</b><br>ICAP Group",
+              "<b>Data Analyst</b><br>Intelen Inc",
+              "<b>BSc in Mathematics</b><br>University of Athens",
+              "<b>MSc in Business Analytics</b><br>AUEB",
+              "<b>Data Scientist with R</b><br>Datacamp Career Track",
+              "<b>Data Analyst with R</b><br>Datacamp Career Track",
+              "<b>R Programmer</b><br>Datacamp Career Track",
+              "<b>Data Scientist with Python</b><br>Datacamp Career Track",
+              "<b>Analytics Edge</b><br>MIT - edX",
+              "<b>Introduction to Probability - The Science of Uncertainty</b><br>MIT - edX"),
+  group = c(rep("exp",3),
+            rep("edu",2),
+            rep("prd",6)),
+  start = c("2015-01-05",
+            "2016-07-10",
+            "2017-05-15",
+            "2008-10-01",
+            "2015-10-01",
+            "2018-02-01",
+            "2018-02-01",
+            "2018-02-01",
+            "2018-06-01",
+            "2015-03-01",
+            "2015-02-01"),
+  end = c("2015-10-30", 
+          "2017-05-12",
+          as.character(Sys.Date()),
+          "2013-09-30",
+          "2017-01-30",
+          "2018-03-30",
+          "2018-04-30",
+          "2018-04-30",
+          as.character(Sys.Date()),
+          "2015-05-30",
+          "2015-05-30")
+)
+
+timeline_groups <- data.frame(
+  id = c("exp","edu","prd"),
+  content = c("Experience",
+              "Education",
+              "Profesional Development")
+)
+
+timevis(data = timeline_data, 
+        groups = timeline_groups 
+        #width = 1000, 
+        #height = 300
+        )
+```
