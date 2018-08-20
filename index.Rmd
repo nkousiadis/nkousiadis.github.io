@@ -9,13 +9,16 @@ output:
 
 <br>
 
-<img src="www/photo.png" align="right">
+<img src="www/photo.jpg" height="240" width="240" align="right" hspace="30">
 
-<br>
-<br>
-<br>
-<br>
-<br>
+Hello, I am Nikos, currently working as data analyst and holding a MSc in Business Analytics and a BSc in Mathematics.
+
+I like all data related tasks such as manipulating and analyzing data to solve problems, building creative visualizations to gain insights and developping machine learning models to predict business outcomes.
+
+I have solid mathematical and programming skills and experience with a variety of relational databases and big data systems.
+
+I am an R enthusiast. I love to use R for doing data science and building interactive analytics tools (R Shiny) to automate processes and present findings.
+
 <br>
 
 # Experience
