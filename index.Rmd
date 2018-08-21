@@ -7,17 +7,33 @@ output:
     toc_float: yes
 ---
 
+<style>
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
+<style>
+.top {
+    vertical-align: top;
+}
+</style>
+
 <br>
 
-<img src="www/photo.jpg" height="240" width="240" align="right" hspace="30">
+<img src="www/photo2.png" height="200" width="200" class="center" hspace="50">
 
-Hello, I am Nikos, currently working as data analyst and holding a MSc in Business Analytics and a BSc in Mathematics.
+# Intro
 
-I like all data related tasks such as manipulating and analyzing data to solve problems, building creative visualizations to gain insights and developping machine learning models to predict business outcomes.
+Hello, I am Nikos and I currently work as Data Analyst. I am a data science enthusiast and I love working with all data driven tasks.
 
-I have solid mathematical and programming skills and experience with a variety of relational databases and big data systems.
+My daily activities include manipulating and analyzing data to solve problems, building creative visualizations to gain insights and building machine learning models to predict business outcomes.
 
-I am an R enthusiast. I love to use R for doing data science and building interactive analytics tools (R Shiny) to automate processes and present findings.
+I am <img src="www/Rlogo.png" height="20" width="20" class="top"> fan! I enjoy using R for data science and develop data products using R Shiny to automate processes and present findings.
+
+I hold a MSc in Business Analytics from Athens University of Economics and Business and a BSc in Mathematics from University of Athens. I have solid mathematical and programming skills and experience with a variety of relational databases and big data systems.
+
 
 <br>
 
@@ -79,26 +95,28 @@ Business Analysis<br><br>
 
 # Professional development
 
-<font color="#218cba"><b>06/2018 - Present</font> &emsp; Data Scientist with Python</b>, Datacamp Career Track (9 out of 22 courses completed)
-<details><summary>Courses/Statements of accomplishment:</summary>
-<p>
-1. [Intro to Python for Data Science](https://www.datacamp.com/statement-of-accomplishment/course/d66f750910ba8fbaa55618aa08a235e452b295b9)
-2. [Intermediate Python for Data Science](https://www.datacamp.com/statement-of-accomplishment/course/82d38467dad84013beb9c2c1ff11dc8ab0e5376e)
-3. [Python Data Science Toolbox (Part 1) ](https://www.datacamp.com/statement-of-accomplishment/course/f838418702703ae04bae7d782da545fc491c577a)
-4. [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/statement-of-accomplishment/course/021a139dffb422b6cd51c5f2050b920337d3ae13)
-5. [Importing Data in Python (Part 1) ](https://www.datacamp.com/statement-of-accomplishment/course/0bb10b12d6965e3b7bfe7d95da6e925342357bf3)
-6. [Importing Data in Python (Part 2) ](https://www.datacamp.com/statement-of-accomplishment/course/99b8b80ef50a6775917b0771980e176aeff5ee07)
-7. [Cleaning Data in Python](https://www.datacamp.com/statement-of-accomplishment/course/a240d2f4538d0532e0dda5c86a43cf79086f9da7)
-8. [pandas Foundations](https://www.datacamp.com/statement-of-accomplishment/course/869f96946f3188af23971df509f4bf9e6c6acf43)
-9. [Manipulating DataFrames with pandas](https://www.datacamp.com/statement-of-accomplishment/course/d1c6e0d9610e2c837d74c8abf6f56208bcad7529)
-</p>
-</details>
+<font color="#218cba"><b>07/2018 - 08/2018</font> &emsp; [Data Scientist with Python](https://www.datacamp.com/statement-of-accomplishment/track/4250ac2f2e0e499b2e97964c860b0d1ffbe4375e)</b>, Datacamp Career Track
 
-<font color="#218cba"><b>02/2018 - 03/2018</font> &emsp; [Data Scientist with R](https://www.datacamp.com/statement-of-accomplishment/track/5f3ae4f9295654dfccd7c84862a83dd1fbfea8e7)</b>, Datacamp Career Track (all 23 courses completed)
+<!-- <font color="#218cba"><b>06/2018 - Present</font> &emsp; Data Scientist with Python</b>, Datacamp Career Track (9 out of 22 courses completed) -->
+<!-- <details><summary>Courses/Statements of accomplishment:</summary> -->
+<!-- <p> -->
+<!-- 1. [Intro to Python for Data Science](https://www.datacamp.com/statement-of-accomplishment/course/d66f750910ba8fbaa55618aa08a235e452b295b9) -->
+<!-- 2. [Intermediate Python for Data Science](https://www.datacamp.com/statement-of-accomplishment/course/82d38467dad84013beb9c2c1ff11dc8ab0e5376e) -->
+<!-- 3. [Python Data Science Toolbox (Part 1) ](https://www.datacamp.com/statement-of-accomplishment/course/f838418702703ae04bae7d782da545fc491c577a) -->
+<!-- 4. [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/statement-of-accomplishment/course/021a139dffb422b6cd51c5f2050b920337d3ae13) -->
+<!-- 5. [Importing Data in Python (Part 1) ](https://www.datacamp.com/statement-of-accomplishment/course/0bb10b12d6965e3b7bfe7d95da6e925342357bf3) -->
+<!-- 6. [Importing Data in Python (Part 2) ](https://www.datacamp.com/statement-of-accomplishment/course/99b8b80ef50a6775917b0771980e176aeff5ee07) -->
+<!-- 7. [Cleaning Data in Python](https://www.datacamp.com/statement-of-accomplishment/course/a240d2f4538d0532e0dda5c86a43cf79086f9da7) -->
+<!-- 8. [pandas Foundations](https://www.datacamp.com/statement-of-accomplishment/course/869f96946f3188af23971df509f4bf9e6c6acf43) -->
+<!-- 9. [Manipulating DataFrames with pandas](https://www.datacamp.com/statement-of-accomplishment/course/d1c6e0d9610e2c837d74c8abf6f56208bcad7529) -->
+<!-- </p> -->
+<!-- </details> -->
 
-<font color="#218cba"><b>02/2018 - 04/2018</font> &emsp; [R Programmer](https://www.datacamp.com/statement-of-accomplishment/track/65f433e5b296dfbeec46e11abdca8a5fcbad4340)</b>, Datacamp Career Track (all 10 courses completed)
+<font color="#218cba"><b>02/2018 - 03/2018</font> &emsp; [Data Scientist with R](https://www.datacamp.com/statement-of-accomplishment/track/5f3ae4f9295654dfccd7c84862a83dd1fbfea8e7)</b>, Datacamp Career Track
 
-<font color="#218cba"><b>02/2018 - 04/2018</font> &emsp; [Data Analyst with R](https://www.datacamp.com/statement-of-accomplishment/track/57a0e342cf5cfc481df8607dc16c053fd8e9dc18)</b>, Datacamp Career Track (all 16 courses completed)
+<font color="#218cba"><b>02/2018 - 04/2018</font> &emsp; [R Programmer](https://www.datacamp.com/statement-of-accomplishment/track/65f433e5b296dfbeec46e11abdca8a5fcbad4340)</b>, Datacamp Career Track
+
+<font color="#218cba"><b>02/2018 - 04/2018</font> &emsp; [Data Analyst with R](https://www.datacamp.com/statement-of-accomplishment/track/57a0e342cf5cfc481df8607dc16c053fd8e9dc18)</b>, Datacamp Career Track
 
 <font color="#218cba"><b>03/2015 - 05/2015</font> &emsp; [Analytics Edge](https://verify.edx.org/cert/b346f33c4c934228b6e94154a2a83522)</b>, MIT - edX course
 
@@ -108,7 +126,7 @@ Business Analysis<br><br>
 
 # Timeline
 
-```{r experience, echo=FALSE}
+```{r experience, echo=FALSE, message=FALSE, warning=FALSE}
 library(timevis)
 
 timeline_data <- data.frame(
@@ -146,7 +164,7 @@ timeline_data <- data.frame(
           "2018-03-30",
           "2018-04-30",
           "2018-04-30",
-          as.character(Sys.Date()),
+          "2018-08-21",
           "2015-05-30",
           "2015-05-30")
 )
