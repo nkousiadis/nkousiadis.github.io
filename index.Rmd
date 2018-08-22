@@ -93,6 +93,16 @@ Business Analysis<br><br>
 
 <br>
 
+# Technical skills
+
+* R, Python, Base SAS, Java, Scala, MATLAB
+* Experience with SQL and NoSQL databases including MySQL, PostgreSQL, MemSQL Spark, Hadoop, MongoDB, Cassandra, Redis, Neo4j
+* Familiarity with markup languages including Markdown, HTML, XML
+* Data Mining, BI and Visualization tools: Pentaho, SAS Enterprise Miner, Rapid Miner, Spotfire, IBM Watson
+* Business Modelling tools, e.g. ARIS
+
+<br>
+
 # Professional development
 
 <font color="#218cba"><b>07/2018 - 08/2018</font> &emsp; [Data Scientist with Python](https://www.datacamp.com/statement-of-accomplishment/track/4250ac2f2e0e499b2e97964c860b0d1ffbe4375e)</b>, Datacamp Career Track
