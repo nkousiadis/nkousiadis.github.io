@@ -22,11 +22,11 @@ output:
 
 <br>
 
-<img src="www/photo2.png" height="200" width="200" class="center" hspace="50">
+<img src="www/photo.png" height="200" width="200" class="center">
 
 # Intro
 
-Hello, I am Nikos and I currently work as Data Analyst. I am a data science enthusiast and I love working with all data driven tasks.
+Hello, I am Nikos and I currently work as Data Analyst. I am data science enthusiast and love working with all data driven tasks.
 
 My daily activities include manipulating and analyzing data to solve problems, building creative visualizations to gain insights and building machine learning models to predict business outcomes.
 
