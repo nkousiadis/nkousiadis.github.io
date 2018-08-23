@@ -128,6 +128,25 @@ Business Analysis<br><br>
 
 <font color="#218cba"><b>02/2018 - 04/2018</font> &emsp; [Data Analyst with R](https://www.datacamp.com/statement-of-accomplishment/track/57a0e342cf5cfc481df8607dc16c053fd8e9dc18)</b>, Datacamp Career Track
 
+<font color="#218cba"><b>01/2017 - 03/2017</font> &emsp; Mastering Software Development in R</b>, Coursera Specialization (2 out of 5 courses completed)
+<details><summary>Courses/Certificates:</summary>
+<p>
+1. [The R Programming Environment](https://www.coursera.org/account/accomplishments/certificate/F4U29KXDFJYX)
+2. [Advanced R Programming](https://www.coursera.org/account/accomplishments/certificate/ZT7P5RHVG9ZG)
+</p>
+</details>
+
+<font color="#218cba"><b>08/2016 - 02/2017</font> &emsp; Big Data</b>, Coursera Specialization (5 out of 6 courses completed)
+<details><summary>Courses/Certificates:</summary>
+<p>
+1. [Introduction to Big Data](https://www.coursera.org/account/accomplishments/certificate/THXQ6KFU8KB4)
+2. [Big Data Modeling and Management Systems](https://www.coursera.org/account/accomplishments/certificate/HW3YFAMNXV5Q)
+3. [Big Data Integration and Processing](https://www.coursera.org/account/accomplishments/certificate/ZRCZRB22FHBV)
+4. [Machine Learning With Big Data](https://www.coursera.org/account/accomplishments/certificate/DXL7WLHFZ4E6)
+5. [Graph Analytics for Big Data](https://www.coursera.org/account/accomplishments/certificate/CAQ2PPCD3DA3)
+</p>
+</details>
+
 <font color="#218cba"><b>03/2015 - 05/2015</font> &emsp; [Analytics Edge](https://verify.edx.org/cert/b346f33c4c934228b6e94154a2a83522)</b>, MIT - edX course
 
 <font color="#218cba"><b>02/2015 - 05/2015</font> &emsp; [Introduction to Probability - The Science of Uncertainty](https://verify.edx.org/cert/3fc4fbc2d4ef463da842cbeedf725d91)</b>, MIT - edX course
@@ -140,7 +159,7 @@ Business Analysis<br><br>
 library(timevis)
 
 timeline_data <- data.frame(
-  id = 1:11,
+  id = 1:13,
   content = c("<b>Telephone Researcher</b><br>Metron Analysis",
               "<b>Data Scientist</b><br>ICAP Group",
               "<b>Data Analyst</b><br>Intelen Inc",
@@ -150,11 +169,13 @@ timeline_data <- data.frame(
               "<b>Data Analyst with R</b><br>Datacamp Career Track",
               "<b>R Programmer</b><br>Datacamp Career Track",
               "<b>Data Scientist with Python</b><br>Datacamp Career Track",
+              "<b>Mastering Software Development in R</b><br>Coursera Specialization",
+              "<b>Big Data</b><br>Coursera Specialization",
               "<b>Analytics Edge</b><br>MIT - edX",
               "<b>Introduction to Probability - The Science of Uncertainty</b><br>MIT - edX"),
   group = c(rep("exp",3),
             rep("edu",2),
-            rep("prd",6)),
+            rep("prd",8)),
   start = c("2015-01-05",
             "2016-07-10",
             "2017-05-15",
@@ -164,6 +185,8 @@ timeline_data <- data.frame(
             "2018-02-01",
             "2018-02-01",
             "2018-06-01",
+            "2017-01-01",
+            "2016-08-01",
             "2015-03-01",
             "2015-02-01"),
   end = c("2015-10-30", 
@@ -175,6 +198,8 @@ timeline_data <- data.frame(
           "2018-04-30",
           "2018-04-30",
           "2018-08-21",
+          "2017-03-13",
+          "2017-02-04",
           "2015-05-30",
           "2015-05-30")
 )
