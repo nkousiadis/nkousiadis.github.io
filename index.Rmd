@@ -9,6 +9,7 @@ output:
        in_header: ga.html
 ---
 
+
 <style>
 .center {
     display: block;
@@ -26,7 +27,7 @@ output:
 
 <img src="www/photo.png" height="200" width="200" class="center">
 
-# Intro
+# <i class="fa fa-info-circle"></i>&nbsp;About me
 
 Hello, I am Nikos and I currently work as Data Analyst. I am data science enthusiast and love working with all data driven tasks.
 
@@ -39,7 +40,7 @@ I hold a MSc in Business Analytics from Athens University of Economics and Busin
 
 <br>
 
-# Experience
+# <i class="fa fa-laptop"></i>&nbsp;Work experience
 
 <font color="#218cba"><b>05/2017 - Present</font> &emsp;&nbsp; Data Analyst, Analytics Department,
 [Intelen Inc, Athens](https://intelen.com/us/)</b>
@@ -66,7 +67,7 @@ data visualisation, statistical results, simulation, KPI monitoring, customer sc
 
 <br>
 
-# Education
+# <i class="fa fa-graduation-cap"></i>&nbsp;Education
 
 <font color="#218cba"><b>10/2015 - 01/2017</font> &emsp; [M.Sc. in Business Analytics](http://analytics.aueb.gr/), Athens University of Economics and Business</b>
 
@@ -95,7 +96,7 @@ Business Analysis<br><br>
 
 <br>
 
-# Technical skills
+# <i class="fa fa-code"></i>&nbsp;Technical skills
 
 * R, Python, Base SAS, Java, Scala, MATLAB
 * Experience with SQL and NoSQL databases including MySQL, PostgreSQL, MemSQL Spark, Hadoop, MongoDB, Cassandra, Redis, Neo4j
@@ -105,7 +106,7 @@ Business Analysis<br><br>
 
 <br>
 
-# Professional development
+# <i class="fa fa-briefcase"></i>&nbsp;Professional development
 
 <font color="#218cba"><b>07/2018 - 08/2018</font> &emsp; [Data Scientist with Python](https://www.datacamp.com/statement-of-accomplishment/track/4250ac2f2e0e499b2e97964c860b0d1ffbe4375e)</b>, Datacamp Career Track
 
@@ -155,7 +156,7 @@ Business Analysis<br><br>
 
 <br>
 
-# Timeline
+# <i class="fa fa-calendar"></i>&nbsp;Timeline
 
 ```{r experience, echo=FALSE, message=FALSE, warning=FALSE}
 library(timevis)
