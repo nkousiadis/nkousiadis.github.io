@@ -130,7 +130,6 @@ Business Analysis<br><br>
 
 <br>
 
-<a href="www/NikosKousiadis_CV.pdf">Link Text Here</a>
 
 # <i class="fa fa-calendar"></i>&nbsp;Timeline
 

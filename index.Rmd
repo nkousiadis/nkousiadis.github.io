@@ -31,5 +31,3 @@ output:
 
 > I hold a MSc in Business Analytics from Athens University of Economics and Business and a BSc in Mathematics from University of Athens. I have solid mathematical and programming skills and experience with a variety of relational databases and big data systems.
 
-
-<br>
