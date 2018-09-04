@@ -25,7 +25,7 @@ output:
 
 > Hello, I am Nikos and I currently work as Data Analyst. I am data science enthusiast and love working with all data driven tasks.
 
-> My daily activities include manipulating and analyzing data to solve problems, building creative visualizations to gain insights and building machine learning models to predict business outcomes.
+> My daily activities include manipulating and analyzing data to solve problems, building creative visualizations to gain insights and machine learning models to predict business outcomes.
 
 > I am <img style="vertical-align:0%;" src="www/Rlogo.png" height="20" width="20"> fan! I enjoy using R for data science and develop data products using R Shiny to automate processes and present findings.
 
