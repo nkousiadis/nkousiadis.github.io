@@ -1,12 +1,5 @@
 name: Nikos Kousiadis
 output_dir: '.'
-navbar:
-  title: Nikos Kousiadis
-  right:
-  - icon: fa-linkedin fa-lg
-    href: https://www.linkedin.com/in/nikoskousiadis/
-  - icon: fa-github fa-lg
-    href: http://github.com/nkousiadis
 output:
   html_document:
     css: style.css
