@@ -85,7 +85,7 @@ h6 {
 }
 </style>
 
-<link href="data:text/css;charset=utf-8,%2Enavbar%2Ddefault%20%7B%0Abox%2Dshadow%3A%200px%203px%2015px%200px%20rgba%280%2C0%2C0%2C0%2E3%29%3B%0Abackground%2Dimage%3A%20linear%2Dgradient%28to%20bottom%20right%2C%20%23218cba%2C%20%23e5f3f9%29%3B%0A%7D%0A%23grad%20%7B%0Abackground%2Dcolor%3A%20%3B%0Acolor%3A%20%23e5f3f9%3B%0Abackground%2Dimage%3A%20linear%2Dgradient%28to%20bottom%20right%2C%20red%2C%20yellow%29%3B%0A%7D" rel="stylesheet" type="text/css" />
+<link href="data:text/css;charset=utf-8,%2Enavbar%2Ddefault%20%7B%0Abox%2Dshadow%3A%200px%203px%2015px%200px%20rgba%280%2C0%2C0%2C0%2E3%29%3B%0Abackground%2Dimage%3A%20linear%2Dgradient%28to%20bottom%20right%2C%20%23218cba%2C%20%23e5f3f9%29%3B%0A%7D%0A%2Enavbar%2Ddefault%20%2Enavbar%2Dleft%3E%2Eactive%3Ea%2C%20%2Enavbar%2Ddefault%20%2Enavbar%2Dleft%3E%2Eactive%3Ea%3Ahover%2C%20%2Enavbar%2Ddefault%20%2Enavbar%2Dleft%3E%2Eactive%3Ea%3Afocus%20%7B%0Acolor%3A%20black%3B%0A%7D%0A%2Enavbar%2Ddefault%20%2Enavbar%2Dleft%3Eli%3Ea%20%7B%0Acolor%3A%20white%3B%0A%7D" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -214,22 +214,24 @@ $(document).ready(function () {
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li>
+      </ul>
+      <ul class="nav navbar-nav navbar-left">
+                <li>
           <a href="index.html">
-            <span class="fa fa-home fa-lg" style="color:white;"></span>
-            <b><font color="white">Home</font></b>
+            <span class="fa fa-home fa-lg"></span>
+            <b>Home</b>
           </a>
         </li>
         <li>
           <a href="vitae.html">
-             <span class="fa fa-address-card fa-lg" style="color:white;"></span>
-            <b><font color="white">Vitae</font></b>
+             <span class="fa fa-address-card fa-lg"></span>
+            <b>Vitae</b>
           </a>
         </li>
         <li>
           <a href="projects.html">
-             <span class="fa fa-clipboard fa-lg" style="color:white;"></span>
-            <b><font color="white">Projects</font></b>
+             <span class="fa fa-clipboard fa-lg"></span>
+            <b>Projects</b>
           </a>
         </li>
       </ul>
