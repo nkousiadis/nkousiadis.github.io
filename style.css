@@ -3,13 +3,19 @@
   background-image: linear-gradient(to bottom right, #218cba, #e5f3f9);
 }
 
-
-.navbar-default .navbar-left>.active>a, 
-.navbar-default .navbar-left>.active>a:hover, 
-.navbar-default .navbar-left>.active>a:focus {
+.navbar-default .navbar-right>.active>a, 
+.navbar-default .navbar-right>.active>a:hover, 
+.navbar-default .navbar-right>.active>a:focus {
   color: black;
+  font-size: medium;
 }
 
-.navbar-default .navbar-left>li>a {
+.navbar-default .navbar-right>li>a {
   color: white;
+  font-size: medium;
+}
+
+.dropdown-menu {
+  text-align: center;
+  transform: translate(-50%, 0);
 }

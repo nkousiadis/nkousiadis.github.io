@@ -6,7 +6,6 @@ output:
        in_header: ga.html
 ---
 
-
 <style>
 .center {
     display: block;
