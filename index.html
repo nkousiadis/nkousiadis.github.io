@@ -22,6 +22,11 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.2/htmlwidgets.js"></script>
+<link href="site_libs/vis-4.16.1/vis.min.css" rel="stylesheet" />
+<script src="site_libs/vis-4.16.1/vis.min.js"></script>
+<link href="site_libs/timeline-0.4/timevis.css" rel="stylesheet" />
+<script src="site_libs/timevis-binding-0.4/timevis.js"></script>
 <link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
 <script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
 <script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
@@ -208,18 +213,6 @@ $(document).ready(function () {
 </head>
 <body>
 
-<style>
-  .img1 {
-    opacity: 0.5;
-    vertical-align: top;
-  }
-  
-  .img1:hover {
-    opacity: 1;
-  }
-</style>
-
-
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
@@ -240,25 +233,115 @@ $(document).ready(function () {
          <li>
           <a href="index.html">
             <span class="fa fa-home fa-lg"></span>
-            <b>Home</b>
+            &nbsp;Home
           </a>
         </li>
         <li>
           <a href="vitae.html">
-             <span class="fa fa-address-card fa-lg"></span>
-            <b>Vitae</b>
+            <span class="fa fa-address-card fa-lg"></span>
+            &nbsp;Vitae
           </a>
         </li>
         <li>
           <a href="projects.html">
-             <span class="fa fa-clipboard fa-lg"></span>
-            <b>Projects</b>
+            <span class="fa fa-clipboard fa-lg"></span>
+            &nbsp;Projects
           </a>
         </li>
         <li>
           <a href="mailto:nkousiadis@hotmail.com">
             <span class="fa fa-envelope fa-lg"></span>
-            Contact
+            &nbsp;Contact
+          </a>
+        </li>
+        <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+            <span class="fa fa-link"></span>
+            Connect
+            <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" role="menu">
+                      
+
+        <li>
+  <a href="https://www.linkedin.com/in/nikoskousiadis/" target="_blank">
+    <span class="fa fa-linkedin fa-lg"></span>
+     Linkedin
+  </a>
+</li>
+<li>
+  <a href="http://github.com/nkousiadis" target="_blank">
+    <span class="fa fa-github fa-lg"></span>
+     Github
+  </a>
+</li>
+<li>
+  <a href="https://www.datacamp.com/profile/nikoskousiadis" target="_blank">
+    <img src="www/datacamp.png" width="22" class="img1"/>
+     Datacamp
+  </a>
+</li>
+<li>
+      <a href="www/NikosKousiadis_CV.pdf"  target="_blank">
+        <span class="fa fa-download fa-lg"></span>
+         Download CV
+      </a>
+        </li>
+            </ul>
+        </li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+</body>
+</html>
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><b><font face="Helvetica" color="white">Nikos Kousiadis</font></b></a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+      </ul>
+      <ul class="nav navbar-nav navbar-left">
+               
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+         <li>
+          <a href="#" onclick="slowScrollTop()">
+            <span class="fa fa-home fa-lg"></span>
+            &nbsp;Home
+          </a>
+        </li>
+        <li>
+          <a href="#vitae" onclick="slowScroll()">
+            <span class="fa fa-address-card fa-lg"></span>
+            &nbsp;Vitae
+          </a>
+        </li>
+        <li>
+          <a href="#projects" onclick="slowScroll()">
+            <span class="fa fa-clipboard fa-lg"></span>
+            &nbsp;Projects
+          </a>
+        </li>
+        <li>
+          <a href="mailto:nkousiadis@hotmail.com">
+            <span class="fa fa-envelope fa-lg"></span>
+            &nbsp;Contact
           </a>
         </li>
         <li class="dropdown">
@@ -321,7 +404,7 @@ $(document).ready(function () {
 <p><br></p>
 <div id="about-me" class="section level1">
 <h1><i class="fa fa-info-circle"></i> About me</h1>
-<p><img src="www/photo.png" height="200" width="200" class="center"></p>
+<p><img src="www/photo2.png" height="200" width="200" class="center"></p>
 <p><br></p>
 <blockquote>
 <p>Hello, I am Nikos and I currently work as Data Analyst. I am data science enthusiast and love working with all data driven tasks.</p>
@@ -335,8 +418,90 @@ $(document).ready(function () {
 <blockquote>
 <p>I hold a MSc in Business Analytics from Athens University of Economics and Business and a BSc in Mathematics from University of Athens. I have solid mathematical and programming skills and experience with a variety of relational databases and big data systems.</p>
 </blockquote>
+<p><br> <br></p>
+<p><a class="anchor" id="vitae"></a></p>
+</div>
+<div id="vitae-timeline" class="section level1">
+<h1><i class="fa fa-address-card"></i> Vitae Timeline</h1>
+<p><br></p>
+<div id="htmlwidget-b48aab2465cd4736ebeb" class="timevis html-widget" style="width:1000px;height:500px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-b48aab2465cd4736ebeb">{"x":{"items":[{"id":" 1","content":"<b>Telephone Researcher<\/b><br>Metron Analysis","group":"exp","start":"2015-01-05","end":"2015-10-30"},{"id":" 2","content":"<b>Data Scientist<\/b><br>ICAP Group","group":"exp","start":"2016-07-10","end":"2017-05-12"},{"id":" 3","content":"<b>Data Analyst<\/b><br>Intelen Inc","group":"exp","start":"2017-05-15","end":"2018-09-07"},{"id":" 4","content":"<b>BSc in Mathematics<\/b><br>University of Athens","group":"edu","start":"2008-10-01","end":"2013-09-30"},{"id":" 5","content":"<b>MSc in Business Analytics<\/b><br>AUEB","group":"edu","start":"2015-10-01","end":"2017-01-30"},{"id":" 6","content":"<b>Data Scientist with R<\/b><br>Datacamp Career Track","group":"prd","start":"2018-02-01","end":"2018-03-30"},{"id":" 7","content":"<b>Data Analyst with R<\/b><br>Datacamp Career Track","group":"prd","start":"2018-02-01","end":"2018-04-30"},{"id":" 8","content":"<b>R Programmer<\/b><br>Datacamp Career Track","group":"prd","start":"2018-02-01","end":"2018-04-30"},{"id":" 9","content":"<b>Data Scientist with Python<\/b><br>Datacamp Career Track","group":"prd","start":"2018-06-01","end":"2018-08-21"},{"id":"10","content":"<b>Mastering Software Development in R<\/b><br>Coursera Specialization","group":"prd","start":"2017-01-01","end":"2017-03-13"},{"id":"11","content":"<b>Big Data<\/b><br>Coursera Specialization","group":"prd","start":"2016-08-01","end":"2017-02-04"},{"id":"12","content":"<b>Analytics Edge<\/b><br>MIT - edX","group":"prd","start":"2015-03-01","end":"2015-05-30"},{"id":"13","content":"<b>Introduction to Probability - The Science of Uncertainty<\/b><br>MIT - edX","group":"prd","start":"2015-02-01","end":"2015-05-30"},{"id":"14","content":"<b>Professor of Mathematics<\/b><br>Freelancer","group":"exp","start":"2014-09-15","end":"2015-06-10"},{"id":"15","content":"<b>Military Service<\/b>","group":"exp","start":"2014-01-13","end":"2014-10-12"}],"groups":[{"id":"exp","content":"Work Experience"},{"id":"edu","content":"Education"},{"id":"prd","content":"Profesional Development"}],"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":500,"api":[]},"evals":[],"jsHooks":[]}</script>
+<div style="font-size:16px">
+<p>For the full vitae click <a href="vitae.html">here</a> or the button below to download it in PDF.</p>
+<p><a class="btn btn-default btn-lg" href="www/NikosKousiadis_CV.pdf" target="_blank" role="button"><font size="3">Download CV</font></a></p>
+<p><br> <br></p>
+<p><a class="anchor" id="projects"></a></p>
+<h1 id="projects"><i class="fa fa-address-card"></i> Projects</h1>
+<p><br></p>
+<p style="text-align:center">
+<font size="5" color="#2F9D66"><b>COMING SOON</b></font>
+</p>
+<!-- <a class="btn btn-default btn-lg" href="projects.html" role="button"><font size="3">ALL PROJECTS</font></a> -->
+</div>
 </div>
 
+  </div> <!-- articleBandContent -->
+</div> <!-- pageContent -->
+
+<footer class="no-print">
+  <div id="site_footer" class="footer">
+    <div class="footerContent">
+      <div align="right">
+        <a href="mailto:nkousiadis@hotmail.com"><i class="fa fa-envelope fa-lg"></i>&nbsp;<b>nkousiadis@hotmail.com</b></a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="https://www.linkedin.com/in/nikoskousiadis/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+        &nbsp;&nbsp;
+        <a href="http://github.com/nkousiadis" target="_blank"><i class="fa fa-github fa-lg"></i></a>
+      </div>
+    </div>
+  </div>
+  
+    <!-- slow scrollTop function -->
+  <script type="text/javascript">
+    function slowScrollTop() { 
+      $('body').animate({ scrollTop: 0 }, 'slow'); 
+    } 
+  </script>
+  
+    <!-- slow scrolling to anchor function -->
+  <script type="text/javascript">
+    $('a').click(function slowScroll() { 
+      $('html, body').animate({ 
+        scrollTop: $( $(this).attr('href') ).offset().top 
+      }, 'slow');
+      return false;
+    }); 
+  </script>
+  
+    <!-- page transition -->
+  <script type="text/javascript">
+    // fade content and not navbar in and out
+    $(document).ready(function fadeInOut() {
+      var non_navbar = $('.fluid-row,.section.level2,.summary,p,acrticle,h3,footer')
+      non_navbar.css('display', 'none');
+      non_navbar.fadeIn(800);
+    
+      $('.navbar-link').click(function(event) {
+        event.preventDefault();
+        newLocation = this.href;
+      
+        non_navbar.fadeOut('slow', newpage);
+      });
+    
+      function newpage() {
+        window.location = newLocation;
+      }
+    });
+  </script>
+</footer>
 
 
 

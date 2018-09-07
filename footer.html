@@ -1,6 +1,57 @@
-<!DOCTYPE html>
+  </div> <!-- articleBandContent -->
+</div> <!-- pageContent -->
 
-<footer>
-  <i class="fa fa-envelope"></i> <a href="mailto:nkousiadis@hotmail.com">
-  nkousiadis@hotmail.com</a>
+<footer class="no-print">
+  <div id="site_footer" class="footer">
+    <div class="footerContent">
+      <div align="right">
+        <a href="mailto:nkousiadis@hotmail.com"><i class="fa fa-envelope fa-lg"></i>&nbsp;<b>nkousiadis@hotmail.com</b></a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="https://www.linkedin.com/in/nikoskousiadis/" target="_blank"><i class="fa fa-linkedin fa-lg"></i></a>
+        &nbsp;&nbsp;
+        <a href="http://github.com/nkousiadis" target="_blank"><i class="fa fa-github fa-lg"></i></a>
+      </div>
+    </div>
+  </div>
+  
+    <!-- slow scrollTop function -->
+  <script type="text/javascript">
+    function slowScrollTop() { 
+      $('body').animate({ scrollTop: 0 }, 'slow'); 
+    } 
+  </script>
+  
+    <!-- slow scrolling to anchor function -->
+  <script type="text/javascript">
+    $('a').click(function slowScroll() { 
+      $('html, body').animate({ 
+        scrollTop: $( $(this).attr('href') ).offset().top 
+      }, 'slow');
+      return false;
+    }); 
+  </script>
+  
+    <!-- page transition -->
+  <script type="text/javascript">
+    // fade content and not navbar in and out
+    $(document).ready(function fadeInOut() {
+      var non_navbar = $('.fluid-row,.section.level2,.summary,p,acrticle,h3,footer')
+      non_navbar.css('display', 'none');
+      non_navbar.fadeIn(800);
+    
+      $('.navbar-link').click(function(event) {
+        event.preventDefault();
+        newLocation = this.href;
+      
+        non_navbar.fadeOut('slow', newpage);
+      });
+    
+      function newpage() {
+        window.location = newLocation;
+      }
+    });
+  </script>
 </footer>

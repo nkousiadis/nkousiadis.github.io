@@ -2,8 +2,12 @@
 output:
   html_document:
     self_contained: yes
+    excludes:
+      before_body: _navbar.html
     includes:
        in_header: ga.html
+       before_body: navbar_home.html
+       after_body: footer.html
 ---
 
 <style>
@@ -18,7 +22,7 @@ output:
 
 # <i class="fa fa-info-circle"></i>&nbsp;About me
 
-<img src="www/photo.png" height="200" width="200" class="center">
+<img src="www/photo2.png" height="200" width="200" class="center">
 
 <br>
 
@@ -30,3 +34,102 @@ output:
 
 > I hold a MSc in Business Analytics from Athens University of Economics and Business and a BSc in Mathematics from University of Athens. I have solid mathematical and programming skills and experience with a variety of relational databases and big data systems.
 
+<br>
+<br>
+
+<a class="anchor" id="vitae"></a>
+
+# <i class="fa fa-address-card"></i>&nbsp;Vitae Timeline
+
+<br>
+
+```{r experience, echo=FALSE, message=FALSE, warning=FALSE}
+library(timevis)
+
+timeline_data <- data.frame(
+  id = 1:15,
+  content = c("<b>Telephone Researcher</b><br>Metron Analysis",
+              "<b>Data Scientist</b><br>ICAP Group",
+              "<b>Data Analyst</b><br>Intelen Inc",
+              "<b>BSc in Mathematics</b><br>University of Athens",
+              "<b>MSc in Business Analytics</b><br>AUEB",
+              "<b>Data Scientist with R</b><br>Datacamp Career Track",
+              "<b>Data Analyst with R</b><br>Datacamp Career Track",
+              "<b>R Programmer</b><br>Datacamp Career Track",
+              "<b>Data Scientist with Python</b><br>Datacamp Career Track",
+              "<b>Mastering Software Development in R</b><br>Coursera Specialization",
+              "<b>Big Data</b><br>Coursera Specialization",
+              "<b>Analytics Edge</b><br>MIT - edX",
+              "<b>Introduction to Probability - The Science of Uncertainty</b><br>MIT - edX",
+              "<b>Professor of Mathematics</b><br>Freelancer",
+              "<b>Military Service</b>"),
+  group = c(rep("exp",3),
+            rep("edu",2),
+            rep("prd",8),
+            rep("exp",2)),
+  start = c("2015-01-05",
+            "2016-07-10",
+            "2017-05-15",
+            "2008-10-01",
+            "2015-10-01",
+            "2018-02-01",
+            "2018-02-01",
+            "2018-02-01",
+            "2018-06-01",
+            "2017-01-01",
+            "2016-08-01",
+            "2015-03-01",
+            "2015-02-01",
+            "2014-09-15",
+            "2014-01-13"),
+  end = c("2015-10-30", 
+          "2017-05-12",
+          as.character(Sys.Date()),
+          "2013-09-30",
+          "2017-01-30",
+          "2018-03-30",
+          "2018-04-30",
+          "2018-04-30",
+          "2018-08-21",
+          "2017-03-13",
+          "2017-02-04",
+          "2015-05-30",
+          "2015-05-30",
+          "2015-06-10",
+          "2014-10-12")
+)
+
+timeline_groups <- data.frame(
+  id = c("exp","edu","prd"),
+  content = c("Work Experience",
+              "Education",
+              "Profesional Development")
+)
+
+timevis(data = timeline_data, 
+        groups = timeline_groups, 
+        width = 1000, 
+        height = 500
+        )
+```
+
+<div style="font-size:16px">
+
+For the full vitae click [here](vitae.html) or the button below to download it in PDF.
+
+<a class="btn btn-default btn-lg" href="www/NikosKousiadis_CV.pdf" target="_blank" role="button"><font size="3">Download CV</font></a>
+
+<br>
+<br>
+
+<a class="anchor" id="projects"></a>
+
+# <i class="fa fa-address-card"></i>&nbsp;Projects
+
+<br>
+
+<p style="text-align:center"><font size="5" color="#2F9D66"><b>COMING SOON</b></font></p>
+
+<!-- <a class="btn btn-default btn-lg" href="projects.html" role="button"><font size="3">ALL PROJECTS</font></a> -->
+
+</div>

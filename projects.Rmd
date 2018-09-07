@@ -6,4 +6,4 @@ output:
 
 <br>
 <br>
-<p style="text-align:center"><font size="5"><b>COMING SOON</b></font></p>
+<p style="text-align:center"><font size="5" color="#2F9D66"><b>COMING SOON</b></font></p>

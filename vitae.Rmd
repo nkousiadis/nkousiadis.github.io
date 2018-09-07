@@ -9,6 +9,8 @@ output:
 
 <br>
 
+<div style="font-size:16px">
+
 # <i class="fa fa-briefcase"></i>&nbsp;Work experience
 
 <font color="#218cba"><b>05/2017 - Present</font> &emsp;&nbsp; Data Analyst, Analytics Department,
@@ -130,6 +132,7 @@ Business Analysis<br><br>
 
 <br>
 
+</div>
 
 # <i class="fa fa-calendar"></i>&nbsp;Timeline
 
