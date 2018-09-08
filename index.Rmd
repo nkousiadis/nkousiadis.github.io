@@ -32,7 +32,7 @@ output:
 
 > I am <img style="vertical-align:0%;" src="www/Rlogo.png" height="20" width="20"> fan! I enjoy using R for data science and develop data products using R Shiny to automate processes and present findings.
 
-> I hold a MSc in Business Analytics from Athens University of Economics and Business and a BSc in Mathematics from University of Athens. I have solid mathematical and programming skills and experience with a variety of relational databases and big data systems.
+> I hold a MSc in Business Analytics from the Athens University of Economics and Business and a BSc in Mathematics from the University of Athens. I have solid mathematical and programming skills and experience with a variety of relational databases and big data systems.
 
 <br>
 <br>
