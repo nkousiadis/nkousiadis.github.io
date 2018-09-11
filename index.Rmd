@@ -19,6 +19,8 @@ output:
 </style>
 
 <br>
+<br>
+<br>
 
 # <i class="fa fa-info-circle"></i>&nbsp;About me
 
@@ -36,10 +38,11 @@ output:
 
 <br>
 <br>
+<hr>
 
 <a class="anchor" id="vitae"></a>
 
-# <i class="fa fa-address-card"></i>&nbsp;Vitae Timeline
+# <i class="fa fa-address-card"></i>&nbsp;Vitae
 
 <br>
 
@@ -115,12 +118,142 @@ timevis(data = timeline_data,
 
 <div style="font-size:16px">
 
-For the full vitae click [here](vitae.html) or the button below to download it in PDF.
-
 <a class="btn btn-default btn-lg" href="www/NikosKousiadis_CV.pdf" target="_blank" role="button"><font size="3">Download CV</font></a>
 
+<button data-toggle="collapse" data-target="#vitae_collapsible" class="btn btn-default btn-lg"><font size="3">SHOW / HIDE FULL VITAE</font></button>
+
+<div id="vitae_collapsible" class="collapse">
+
+<div style="font-size:16px">
+
+### <i class="fa fa-briefcase"></i>&nbsp;Work experience
+
+<font color="#218cba"><b>05/2017 - Present</font> &emsp;&nbsp; Data Analyst, Analytics Department,
+[Intelen Inc, Athens](https://intelen.com/us/)</b>
+
+* Design, develop and maintain analytics app (R Shiny) for the following purposes: 
+data visualisation, statistical results, simulation, KPI monitoring, customer scoring & segmentation, predictive modelling, etc.
+* Use supervised and unsupervised machine learning methods to optimize customer experience, revenue generation and other business outcomes
+* Enhance customer experience building recommender systems for personalized services
+* Develop and automate reporting processes
+* Define, measure and monitor KPIs
+* Design new data-driven business products
+
+<font color="#218cba"><b>07/2016 - 05/2017</font> &emsp; Data Scientist, Credit Risk Department, [ICAP Group, Athens](https://www.icap.gr/)</b>
+
+* Prepare the thesis "Storage of Default Characterization Data", as part of the M.Sc. in Business Analytics, Athens University of Economics and Business  
+* Support regulatory requirements on reporting and monitoring of ICAP's credit assessment evolution data to regulators
+* Support reporting to European Rating Platform (ERP/RADAR), the platform maintained by ESMA on credit rating agencies data
+* Design, develop and maintain statistical procedures and tools (automated and semi-automated procedures) for the monitoring of credit assessment evolution in SAS and R softwares, as well as, data management and automation activities
+* Model analysis processes
+
+<font color="#218cba"><b>01/2015 – 10/2015</font> &emsp; Researcher, Telephone Research Department, [Metron Analysis S.A., Athens](https://www.metronanalysis.gr/)</b> 
+
+* Participate in the conduction of various research projects in the section of the telephone survey department.<br> 
+
+
+<font color="#218cba"><b>09/2014 – 06/2015</font> &emsp; Professor of Mathematics, Freelancer, Athens</b> 
+
+* Improved a high school student’s mathematical skills by preparing him for the school exams.<br> 
+
+<br>
+
+### <i class="fa fa-graduation-cap"></i>&nbsp;Education
+
+<font color="#218cba"><b>10/2015 - 01/2017</font> &emsp; [M.Sc. in Business Analytics](http://analytics.aueb.gr/), Athens University of Economics and Business</b>
+
+<b> Degree with Distinction, 8.86 / 10 </b>
+
+Field Study Project (Master Thesis) conducted in ICAP Group:<br>
+Development of automated system in R for the following activities on default characterization data:  
+
+* Data cleansing, exploration and transformation  
+* Statistical reporting and visualization  
+* Creation of historical database and integration in optimised data schema  
+
+Part of master projects:  
+
+* Data warehousing, Data management, ETL (MySQL, MemSQL, Java, R)  
+* Statistical analyses with R using various methods, e.g. regression, classification, clustering,
+LASSO, PCA, Naïve Bayes, etc.
+* Application development using big data tools like Hadoop, Spark, Redis, MongoDB and
+Neo4j (Java, Scala, R)
+* Data Mining, Large Scale Optimization, Visual Analytics, Recommender Systems,
+Business Analysis<br><br>
+
+<font color="#218cba"><b>10/2008 – 09/2013</font> &emsp; [B.Sc. in Mathematics](http://noether.math.uoa.gr/?set_language=en), University of Athens</b>
+
+* Main topics of interest: Probability Theory, Operations Research, Stochastics, Statistics
+
+<br>
+
+### <i class="fa fa-code"></i>&nbsp;Technical skills
+
+* R, Python, Base SAS, Java, Scala, MATLAB
+* Experience with SQL and NoSQL databases including MySQL, PostgreSQL, MemSQL Spark, Hadoop, MongoDB, Cassandra, Redis, Neo4j
+* Familiarity with markup languages including Markdown, HTML, XML
+* Data Mining, BI and Visualization tools: Pentaho, SAS Enterprise Miner, Rapid Miner, Spotfire, IBM Watson
+* Business Modelling tools, e.g. ARIS
+
+<br>
+
+### <i class="fa fa-laptop"></i>&nbsp;Professional development
+
+<font color="#218cba"><b>07/2018 - 08/2018</font> &emsp; [Data Scientist with Python](https://www.datacamp.com/statement-of-accomplishment/track/4250ac2f2e0e499b2e97964c860b0d1ffbe4375e)</b>, Datacamp Career Track
+
+<!-- <font color="#218cba"><b>06/2018 - Present</font> &emsp; Data Scientist with Python</b>, Datacamp Career Track (9 out of 22 courses completed) -->
+<!-- <details><summary>Courses/Statements of accomplishment:</summary> -->
+<!-- <p> -->
+<!-- 1. [Intro to Python for Data Science](https://www.datacamp.com/statement-of-accomplishment/course/d66f750910ba8fbaa55618aa08a235e452b295b9) -->
+<!-- 2. [Intermediate Python for Data Science](https://www.datacamp.com/statement-of-accomplishment/course/82d38467dad84013beb9c2c1ff11dc8ab0e5376e) -->
+<!-- 3. [Python Data Science Toolbox (Part 1) ](https://www.datacamp.com/statement-of-accomplishment/course/f838418702703ae04bae7d782da545fc491c577a) -->
+<!-- 4. [Python Data Science Toolbox (Part 2)](https://www.datacamp.com/statement-of-accomplishment/course/021a139dffb422b6cd51c5f2050b920337d3ae13) -->
+<!-- 5. [Importing Data in Python (Part 1) ](https://www.datacamp.com/statement-of-accomplishment/course/0bb10b12d6965e3b7bfe7d95da6e925342357bf3) -->
+<!-- 6. [Importing Data in Python (Part 2) ](https://www.datacamp.com/statement-of-accomplishment/course/99b8b80ef50a6775917b0771980e176aeff5ee07) -->
+<!-- 7. [Cleaning Data in Python](https://www.datacamp.com/statement-of-accomplishment/course/a240d2f4538d0532e0dda5c86a43cf79086f9da7) -->
+<!-- 8. [pandas Foundations](https://www.datacamp.com/statement-of-accomplishment/course/869f96946f3188af23971df509f4bf9e6c6acf43) -->
+<!-- 9. [Manipulating DataFrames with pandas](https://www.datacamp.com/statement-of-accomplishment/course/d1c6e0d9610e2c837d74c8abf6f56208bcad7529) -->
+<!-- </p> -->
+<!-- </details> -->
+
+<font color="#218cba"><b>02/2018 - 03/2018</font> &emsp; [Data Scientist with R](https://www.datacamp.com/statement-of-accomplishment/track/5f3ae4f9295654dfccd7c84862a83dd1fbfea8e7)</b>, Datacamp Career Track
+
+<font color="#218cba"><b>02/2018 - 04/2018</font> &emsp; [R Programmer](https://www.datacamp.com/statement-of-accomplishment/track/65f433e5b296dfbeec46e11abdca8a5fcbad4340)</b>, Datacamp Career Track
+
+<font color="#218cba"><b>02/2018 - 04/2018</font> &emsp; [Data Analyst with R](https://www.datacamp.com/statement-of-accomplishment/track/57a0e342cf5cfc481df8607dc16c053fd8e9dc18)</b>, Datacamp Career Track
+
+<font color="#218cba"><b>01/2017 - 03/2017</font> &emsp; Mastering Software Development in R</b>, Coursera Specialization (2 out of 5 courses completed)
+<details><summary>Courses/Certificates:</summary>
+<p>
+1. [The R Programming Environment](https://www.coursera.org/account/accomplishments/certificate/F4U29KXDFJYX)
+2. [Advanced R Programming](https://www.coursera.org/account/accomplishments/certificate/ZT7P5RHVG9ZG)
+</p>
+</details>
+
+<font color="#218cba"><b>08/2016 - 02/2017</font> &emsp; Big Data</b>, Coursera Specialization (5 out of 6 courses completed)
+<details><summary>Courses/Certificates:</summary>
+<p>
+1. [Introduction to Big Data](https://www.coursera.org/account/accomplishments/certificate/THXQ6KFU8KB4)
+2. [Big Data Modeling and Management Systems](https://www.coursera.org/account/accomplishments/certificate/HW3YFAMNXV5Q)
+3. [Big Data Integration and Processing](https://www.coursera.org/account/accomplishments/certificate/ZRCZRB22FHBV)
+4. [Machine Learning With Big Data](https://www.coursera.org/account/accomplishments/certificate/DXL7WLHFZ4E6)
+5. [Graph Analytics for Big Data](https://www.coursera.org/account/accomplishments/certificate/CAQ2PPCD3DA3)
+</p>
+</details>
+
+<font color="#218cba"><b>03/2015 - 05/2015</font> &emsp; [Analytics Edge](https://verify.edx.org/cert/b346f33c4c934228b6e94154a2a83522)</b>, MIT - edX course
+
+<font color="#218cba"><b>02/2015 - 05/2015</font> &emsp; [Introduction to Probability - The Science of Uncertainty](https://verify.edx.org/cert/3fc4fbc2d4ef463da842cbeedf725d91)</b>, MIT - edX course
+
+<br>
+
+</div>
+
+</div>
+
 <br>
 <br>
+<hr>
 
 <a class="anchor" id="projects"></a>
 
