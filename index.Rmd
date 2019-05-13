@@ -28,7 +28,7 @@ output:
 
 <br>
 
-> Hello, I am Nikos and I currently work as Data Analyst. I am data science enthusiast and love working with all data driven tasks.
+> Hello, I am Nikos and I currently work as Data Scientist. I am data science enthusiast and love working with all data driven tasks.
 
 > My daily activities include manipulating and analyzing data to solve problems, building creative visualizations to gain insights and machine learning models to predict business outcomes.
 
@@ -50,10 +50,11 @@ output:
 library(timevis)
 
 timeline_data <- data.frame(
-  id = 1:15,
+  id = 1:16,
   content = c("<b>Telephone Researcher</b><br>Metron Analysis",
               "<b>Data Scientist</b><br>ICAP Group",
               "<b>Data Analyst</b><br>Intelen Inc",
+              "<b>Data Scientist</b><br>IRI ACE",
               "<b>BSc in Mathematics</b><br>University of Athens",
               "<b>MSc in Business Analytics</b><br>AUEB",
               "<b>Data Scientist with R</b><br>Datacamp Career Track",
@@ -66,13 +67,14 @@ timeline_data <- data.frame(
               "<b>Introduction to Probability - The Science of Uncertainty</b><br>MIT - edX",
               "<b>Professor of Mathematics</b><br>Freelancer",
               "<b>Military Service</b>"),
-  group = c(rep("exp",3),
+  group = c(rep("exp",4),
             rep("edu",2),
             rep("prd",8),
             rep("exp",2)),
   start = c("2015-01-05",
             "2016-07-10",
             "2017-05-15",
+            "2019-02-11",
             "2008-10-01",
             "2015-10-01",
             "2018-02-01",
@@ -87,6 +89,7 @@ timeline_data <- data.frame(
             "2014-01-13"),
   end = c("2015-10-30", 
           "2017-05-12",
+          "2019-02-08",
           as.character(Sys.Date()),
           "2013-09-30",
           "2017-01-30",
@@ -128,7 +131,16 @@ timevis(data = timeline_data,
 
 ### <i class="fa fa-briefcase"></i>&nbsp;Work experience
 
-<font color="#218cba"><b>05/2017 - Present</font> &emsp;&nbsp; Data Analyst, Analytics Department,
+<font color="#218cba"><b>02/2019 - Present</font> &emsp;&nbsp; Data Scientist - Principle Analyst, Media Centre of Excellence,
+[IRI ACE, Athens](https://www.iriworldwide.com/)</b>
+
+* Product development and big data analysis on Hadoop Hive  
+* Combine and analyze multiple data sources of media campaign exposure, point-of-sale, frequent
+shopper and causal data to get deeper insights of actual in-store sales lift impact of ad spend  
+* Monitor, evaluate and optimize code quality and speed  
+* Responsible for the maintenance, development and team support of various products  
+
+<font color="#218cba"><b>05/2017 - 02/2019</font> &emsp;&nbsp; Data Analyst, Analytics Department,
 [Intelen Inc, Athens](https://intelen.com/us/)</b>
 
 * Design, develop and maintain analytics app (R Shiny) for the following purposes: 
@@ -189,8 +201,8 @@ Business Analysis<br><br>
 
 ### <i class="fa fa-code"></i>&nbsp;Technical skills
 
-* R, Python, Base SAS, Java, Scala, MATLAB
-* Experience with SQL and NoSQL databases including MySQL, PostgreSQL, MemSQL Spark, Hadoop, MongoDB, Cassandra, Redis, Neo4j
+* R, Python, Base SAS, Java, Scala, MATLAB, Julia
+* Experience with SQL and NoSQL databases including MySQL, PostgreSQL, MemSQL, Spark, Hive, Hadoop, MongoDB, Cassandra, Redis, Neo4j
 * Familiarity with markup languages including Markdown, HTML, XML
 * Data Mining, BI and Visualization tools: Pentaho, SAS Enterprise Miner, Rapid Miner, Spotfire, IBM Watson
 * Business Modelling tools, e.g. ARIS
